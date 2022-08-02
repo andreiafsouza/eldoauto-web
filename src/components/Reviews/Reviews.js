@@ -24,7 +24,7 @@ const Reviews = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://192.168.100.8:3000/assets/reviews.json")
+    fetch("/assets/reviews.json")
       .then((response) => response.json())
       .then(setData);
   }, []);

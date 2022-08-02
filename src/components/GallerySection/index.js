@@ -17,7 +17,7 @@ const GallerySection = () => {
   const [data, setData] = useState(0);
 
   useEffect(() => {
-    fetch("http://192.168.100.8:3000/assets/gallery.json")
+    fetch("/assets/gallery.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
