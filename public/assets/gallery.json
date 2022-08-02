@@ -1,0 +1,23 @@
+[
+  {
+    "id": "65487987",
+    "src": "./assets/gallery-img-1.jpg",
+    "alt": "primeira imagem galeria"
+  },
+
+  {
+    "id": "546546545",
+    "src": "./assets/gallery-img-2.jpg",
+    "alt": "segunda imagem galeria"
+  },
+  {
+    "id": "45654654654",
+    "src": "./assets/gallery-img-3.jpg",
+    "alt": "terceira imagem galeria"
+  },
+  {
+    "id": "4285781548",
+    "src": "./assets/gallery-img-4.jpg",
+    "alt": "quarta imagem galeria"
+  }
+]

@@ -1,0 +1,19 @@
+:root {
+  --swiper-theme-color: #2c698c;
+}
+
+#swiper-container {
+  height: 280px;
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480) {
+  .swiper-pagination {
+    bottom: 2px;
+  }
+}

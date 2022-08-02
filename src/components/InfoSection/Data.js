@@ -1,0 +1,21 @@
+export const insuranceInfo = {
+  id: "insurance",
+  lightBg: true,
+  lightText: false,
+  topLine: "Seguradoras",
+  headLine: "As principais seguradoras do país são nossas credenciadas.",
+  description: "Paragrafo com mais informações sobre as seguradoras.",
+  imgStart: false,
+  img: "/assets/car-insurance.png",
+  alt: "Insurance car image",
+  dark: false,
+  darkText: true,
+  insuranceCompanies: [
+    "Allianz Seguros",
+    "Azul Seguros",
+    "HDI Seguros",
+    "Itaú Seguros",
+    "Liberty Seguros",
+    "Porto Seguro",
+  ],
+};
